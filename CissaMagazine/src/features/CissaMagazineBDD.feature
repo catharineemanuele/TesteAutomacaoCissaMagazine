@@ -9,12 +9,12 @@ Funcionalidade: Automacao Cissa Magazine
       Então Entra no site
 
   @SmokeTest
-  Cenario: Realizar Cadastro de um novo cliente
+  Cenario: Realizar cadastro de um novo cliente
     Dado Inicia o cadastro do cliente
     E Preenche os campos
     Então Volta para tela inicial
 
-  Cenario: Realizar a compra de um relógio
+  Cenario: Realizar a compra de um teclado
   Dado Pesquisar e selecionar um item
   E Verifica valor do frete
   E Confirma a comprar
