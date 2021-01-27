@@ -38,5 +38,5 @@ No projeto foram feitos dois cenários:
  Exemplo: `tags = "@TesteMagazine"`</p>
  
  
- ## Qualquer duvida: 
+ ## Qualquer dúvida: 
  <a href="http://wa.me/558185187533">Pode me chamar no WhatsApp!</a> 
