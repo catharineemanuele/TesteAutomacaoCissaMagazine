@@ -121,7 +121,7 @@ public class CissaMagazinePage {
 	protected WebElement colocarCepFrete;
 
 	//Bot�o comprar para adicionar ao carrinho
-	@FindBy(how = How.XPATH, using = "//*[@id="oferta-principal"]/div[4]/div/div[2]/button")
+	@FindBy(how = How.XPATH, using = "//*[@id=\"oferta-principal\"]/div[4]/div/div[2]/button")
 	protected WebElement btnComprar;
 
 	//Bot�o aumentar quantidade
