@@ -41,7 +41,7 @@ WebDriverWait wait;
 	}
 
 
-	//Fazer um exploratorio na parte de cadastro do cliente(bot„o que leva ao cadastro do cliente)
+	//Fazer um exploratorio na parte de cadastro do cliente(bot√£o que leva ao cadastro do cliente)
 	public void CadrastroCliente() {
 		wait.until(ExpectedConditions.visibilityOf(Cadastro)).click();
 	}
@@ -51,7 +51,7 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(emailCadastro)).sendKeys("teste@teste.com");
 	}
 
-	//Bot„o para entrar no cadastro do cliente
+	//Bot√£o para entrar no cadastro do cliente
 	public void BotaoCadastroCliente() {
 		wait.until(ExpectedConditions.visibilityOf(btnpCadastro)).click();
 	}
@@ -60,12 +60,12 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(aceitarcokkie)).click();
 	}
 
-	//Validar o bot„o de Pessoa Fisica
+	//Validar o bot√£o de Pessoa Fisica
 	public void pFisica() {
 		wait.until(ExpectedConditions.visibilityOf(psFisica)).click();
 	}
 
-	//Campo que sÛ vem preselecionar com o email que vc colocou na pagina anterior
+	//Campo que s√≥ vem preselecionar com o email que vc colocou na pagina anterior
 	public void clineteemail() {
 		wait.until(ExpectedConditions.visibilityOf(email)).click();
 	}
@@ -123,22 +123,22 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(senha)).sendKeys("tequinha123456");
 	}
 
-	//Campo para informar a confirmaÁ„o da senha
+	//Campo para informar a confirma√ß√£o da senha
 	public void  senha2() {
 		wait.until(ExpectedConditions.visibilityOf(confirmacaoSenha)).sendKeys("tequinha123456");
 	}
 
-	//Pagina inicial para comeÁar o outro teste exploratorio do site
+	//Pagina inicial para come√ßar o outro teste exploratorio do site
 	public void InicioPagina() {
 		wait.until(ExpectedConditions.visibilityOf(paginaInicial)).click();
 	}
 
 	//Informar qual item para compra
 	public void CampoPesquisa() {
-		wait.until(ExpectedConditions.visibilityOf(campoPesquisaCissa)).sendKeys("Relogio");
+		wait.until(ExpectedConditions.visibilityOf(campoPesquisaCissa)).sendKeys("Teclado");
 	}
 
-	//Bot„o pra pesquisa do item informado
+	//Bot√£o pra pesquisa do item informado
 	public void pesquisabtn() {
 		wait.until(ExpectedConditions.visibilityOf(btnPesquisaCissa)).click();
 	}
@@ -153,7 +153,7 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(colocarCepFrete)).sendKeys("50030040");
 	}
 
-	//Clicar no bot„o para adicionar a lista de compras o item
+	//Clicar no bot√£o para adicionar a lista de compras o item
 	public void botaoCompra() {
 		wait.until(ExpectedConditions.visibilityOf(btnComprar));
 		wait.until(ExpectedConditions.elementToBeClickable(btnComprar)).click();
@@ -168,7 +168,7 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(diminuir)).click();
 	}
 
-	//Seguir com a compra, clicando no bot„o
+	//Seguir com a compra, clicando no bot√£o
 	public void botaoPagamento() {
 		wait.until(ExpectedConditions.visibilityOf(btnPagamento));
 		wait.until(ExpectedConditions.elementToBeClickable(btnPagamento)).click();
@@ -184,7 +184,7 @@ WebDriverWait wait;
 		wait.until(ExpectedConditions.visibilityOf(senhaAcesso)).sendKeys("tequinha");
 	}
 
-	//Bot„o para dar continuidade na compra
+	//Bot√£o para dar continuidade na compra
 	public void loginCompra() {
 		wait.until(ExpectedConditions.visibilityOf(botaoLoginCompra)).click();
 	}
